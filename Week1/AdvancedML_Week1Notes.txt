@@ -53,3 +53,6 @@ how to write a custom function for this ?
 7) Can you explain leverage and convition in the frequent itemsets 
 
 8) Can we factor seasonal info into algo ( timeSeries factor) 
+
+9) Many libraries got downgraded when I installed mlextend lib in Anaconda 
+Will it be an issues anywhere else ?
