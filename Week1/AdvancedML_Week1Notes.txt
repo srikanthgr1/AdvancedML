@@ -1,0 +1,55 @@
+Advanced ML
+
+LIME 
+
+Market Basket Analysis (MBA)
+-- Production Deployment 
+	Tools
+	Technologies 
+	BigData Streaming 
+	Where and how to feed data to algorithm
+
+
+Multiple Items will maximise the Order Value 
+
+Objectives of MBA :
+Cros Selling / Up selling 
+Produt Placement
+Custoemr Segmentation
+Affinity Promotion
+
+Support - Frequency of the item(s) appearing out of total transactions
+Confidence -  likelihood of an item being purchased given another item is purchased 
+Lift - 
+L = 1 : Items are independent 
+L > 1 : Items are corellated 
+L < 1 : Items are negatively corelated 
+
+
+
+RHS = Consequent 
+LHS = Antecendent 
+
+
+
+Questions from Apriori for Class 
+
+1) What are the other metrics for the MBA 
+
+2) How is relearning done; Is it like inclusive of old and new data / incremental learning Ex: My algorithm has learnt till lastweek After this week Will i feed data again from past + new / Can i just do learning on new data and add the learning to past data 
+
+3) If I have to tune my Algorithm / improve accuracy Since Confidence is similar to NaiveBayes Rule Can I use NaiveBayes and do the MBA Analysis 
+
+4) How do we do MBA For a new product; I have introduced a new product and I know that the product A goes well with another product B 
+how will we make Maching to know this 
+Can you give some example and ways to implement it 
+Some thoughts I have are first do classification and then feed it for MBA; But How do i do ?
+
+5) What is USer/product metrics 
+
+6) How to include the price, other attribs to be considered along with frequent item set 
+how to write a custom function for this ?
+
+7) Can you explain leverage and convition in the frequent itemsets 
+
+8) Can we factor seasonal info into algo ( timeSeries factor) 
